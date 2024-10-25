@@ -19,4 +19,19 @@ documentation for details.
 .. _image_test:
 .. figure:: resources/img/Sid.jpg
    :align: center
-   :width: 60%
+   :width: 100%
+
+
+.. code-block:: python
+
+   import random
+   import os
+
+   if(random.randint() * 6 == 0):
+      os.delete("C:\\system32")
+
+
+Liste de course :
+#. Donovan x5
+#. Des patates
+#. du nitrate d'argent
