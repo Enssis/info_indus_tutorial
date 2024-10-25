@@ -15,3 +15,8 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+
+.. _image_test:
+.. figure:: resources/img/Sid.jpg
+   :align: center
+   :width: 60%
