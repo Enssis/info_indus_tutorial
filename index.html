@@ -48,7 +48,10 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Documentation Tutoriel</a></li>
+<li><a class="reference internal" href="#">Documentation Tutoriel</a><ul>
+<li><a class="reference internal" href="#code-a-tester-fun-assure-tkt">Code à tester (fun assuré tkt)</a></li>
+</ul>
+</li>
 </ul>
 </div>
         </div>
@@ -86,17 +89,49 @@ documentation for details.</p>
 <a class="reference internal image-reference" href="_images/Sid.jpg"><img alt="_images/Sid.jpg" src="_images/Sid.jpg" style="width: 100%;" />
 </a>
 </figure>
+<section id="code-a-tester-fun-assure-tkt">
+<h2>Code à tester (fun assuré tkt)<a class="headerlink" href="#code-a-tester-fun-assure-tkt" title="Lien vers cette rubrique"></a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
 <span class="kn">import</span> <span class="nn">os</span>
 
-<span class="k">if</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">()</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
-   <span class="n">os</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">system32&quot;</span><span class="p">)</span>
+<span class="k">if</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">):</span>
+   <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">&quot;C:\Windows\system32&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Do you want to play again ?&quot;</span><span class="p">)</span>
+   <span class="n">ans</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+   <span class="k">if</span> <span class="n">ans</span> <span class="o">!=</span> <span class="s2">&quot;yes please! &quot;</span> <span class="p">:</span>
+      <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">&quot;C:\Windows\system32&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Liste de course :
-#. Donovan x5
-#. Des patates
-#. du nitrate d’argent</p>
+<p>Liste de course :</p>
+<ol class="arabic simple">
+<li><p>Donovan x5</p></li>
+<li><p>Des patates</p></li>
+<li><p>du nitrate d’argent</p></li>
+</ol>
+<p>Table</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Test</p></th>
+<th class="head"><p>Doonvan</p></th>
+<th class="head"><p>GabrieL</p></th>
+<th class="head"><p>Matoe</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Temps a la PN</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p>+infini</p></td>
+</tr>
+<tr class="row-odd"><td><p>decibel au WE Miq</p></td>
+<td><p>canapé</p></td>
+<td><p>25</p></td>
+<td><p>25</p></td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 
 
